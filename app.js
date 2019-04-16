@@ -5,3 +5,6 @@ var myName = 'Jeffrey';
 // number
 var myAge = 32.1;
 // myAge = 'Jeffrey';
+// boolean
+var hasHobbies = true;
+// hasHobbies = 1;
