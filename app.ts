@@ -22,3 +22,18 @@ hobbies = [100];
 
 // tuples
 let address: [string, number] = ["Superstreet", 99];
+
+// enum
+enum Color {
+  Gray,  // 0
+  Green = 100, // 1
+  Blue   // 2?
+}
+
+let gray: Color = Color.Gray;
+let green: Color = Color.Green;
+let blue: Color = Color.Blue;
+
+console.log(`gray: ${gray}`);
+console.log(`green: ${green}`);
+console.log(`blue: ${blue}`);
