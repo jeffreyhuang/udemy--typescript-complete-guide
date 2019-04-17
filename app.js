@@ -28,6 +28,14 @@ var Color;
 var gray = Color.Gray;
 var green = Color.Green;
 var blue = Color.Blue;
-console.log("gray: " + gray);
-console.log("green: " + green);
-console.log("blue: " + blue);
+// console.log(`gray: ${gray}`);
+// console.log(`green: ${green}`);
+// console.log(`blue: ${blue}`);
+// any
+var car = "BMW";
+console.log(car);
+car = {
+    brand: "BMW",
+    series: 3
+};
+console.log(car);
