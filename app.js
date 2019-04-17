@@ -8,3 +8,7 @@ var myAge = 32.1;
 // boolean
 var hasHobbies = true;
 // hasHobbies = 1;
+// assign types
+var myRealAge;
+myRealAge = 27;
+// myRealAge = '27';
