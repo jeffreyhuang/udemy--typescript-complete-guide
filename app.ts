@@ -29,11 +29,18 @@ enum Color {
   Green = 100, // 1
   Blue   // 2?
 }
-
 let gray: Color = Color.Gray;
 let green: Color = Color.Green;
 let blue: Color = Color.Blue;
+// console.log(`gray: ${gray}`);
+// console.log(`green: ${green}`);
+// console.log(`blue: ${blue}`);
 
-console.log(`gray: ${gray}`);
-console.log(`green: ${green}`);
-console.log(`blue: ${blue}`);
+// any
+let car: any = "BMW";
+console.log(car);
+car = {
+  brand: "BMW",
+  series: 3
+};
+console.log(car);
