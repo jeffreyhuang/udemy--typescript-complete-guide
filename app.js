@@ -12,3 +12,7 @@ var hasHobbies = true;
 var myRealAge;
 myRealAge = 27;
 // myRealAge = '27';
+// array
+var hobbies = ["Cooking", "Sports"];
+hobbies = [100];
+// hobbies = "100";
