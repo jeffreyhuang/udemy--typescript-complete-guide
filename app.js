@@ -3,7 +3,7 @@
 var myName = 'Jeffrey';
 // myName = 32;
 // number
-var myAge = 32.1;
+var myAge = 32;
 // myAge = 'Jeffrey';
 // boolean
 var hasHobbies = true;
@@ -33,9 +33,24 @@ var blue = Color.Blue;
 // console.log(`blue: ${blue}`);
 // any
 var car = "BMW";
-console.log(car);
+// console.log(car);
 car = {
     brand: "BMW",
     series: 3
 };
-console.log(car);
+// console.log(car);
+// functions
+function returnMyName() {
+    return myName;
+}
+// console.log(returnMyName());
+// void
+function sayHello() {
+    console.log("Hello!");
+    // return 'Hello!';
+}
+// argument types
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(2, 3));

@@ -3,7 +3,7 @@ let myName = 'Jeffrey';
 // myName = 32;
 
 // number
-let myAge = 32.1;
+let myAge = 32;
 // myAge = 'Jeffrey';
 
 // boolean
@@ -38,9 +38,27 @@ let blue: Color = Color.Blue;
 
 // any
 let car: any = "BMW";
-console.log(car);
+// console.log(car);
 car = {
   brand: "BMW",
   series: 3
 };
-console.log(car);
+// console.log(car);
+
+// functions
+function returnMyName(): string {
+  return myName;
+}
+// console.log(returnMyName());
+
+// void
+function sayHello(): void {
+  console.log("Hello!");
+  // return 'Hello!';
+}
+
+// argument types
+function multiply(value1: number, value2: number): number {
+  return value1 * value2;
+}
+console.log(multiply(2, 3));
