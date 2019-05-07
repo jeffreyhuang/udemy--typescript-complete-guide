@@ -80,3 +80,17 @@ userData = {
   name: 'Mary',
   age: 27
 };
+
+// complex object
+let complex: {
+  data: number[],
+  output: (all: boolean) => number[]
+} = {
+  data: [100, 3.99, 10],
+
+  output: function(all) {
+    return this.data;
+  }
+};
+
+// complex = {};
