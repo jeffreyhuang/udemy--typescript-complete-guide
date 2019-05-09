@@ -116,3 +116,14 @@ if (typeof finalValue == "number") {
 function neverReturns():never {
   throw new Error('An error!');
 }
+
+// Nullable Types
+let foo: number | null = 12;
+foo = null;
+
+let bar;
+bar = null;
+bar = undefined;
+
+let doe = null;
+doe = 12;
