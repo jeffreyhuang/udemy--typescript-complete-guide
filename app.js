@@ -95,3 +95,11 @@ if (typeof finalValue == "number") {
 function neverReturns() {
     throw new Error('An error!');
 }
+// Nullable Types
+var foo = 12;
+foo = null;
+var bar;
+bar = null;
+bar = undefined;
+var doe = null;
+doe = 12;
